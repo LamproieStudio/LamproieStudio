@@ -1,0 +1,24 @@
+var Name = "Bhala Ddos"
+var Bienvenu = "Welcome to Math ," + Name + " ."
+var Reponse = 12 - 4
+var Question = "That's the question." + "What is " + Reponse + " ?"
+
+function welcomToBooleans(isItTrue) {
+    if (isItTrue == 12 - 8) {
+        return "Ok you pass";
+    }
+    return "...";
+}
+
+
+function Error(isItTrue) {
+    if (isItTrue == 12 - 8) {
+        return "GG";
+    }
+    return "The answer was " + Reponse + " though."
+}
+
+console.log(Bienvenu)
+console.log(Question)
+console.log(welcomToBooleans(4))
+console.log(Error(4))
